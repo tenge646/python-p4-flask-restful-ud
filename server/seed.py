@@ -22,3 +22,4 @@ with app.app_context():
 
     db.session.add_all(newsletters)
     db.session.commit()
+
